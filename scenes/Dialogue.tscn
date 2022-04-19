@@ -1,0 +1,43 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://scripts/dialogue.gd" type="Script" id=1]
+[ext_resource path="res://addons/paulloz.ink/InkStory.cs" type="Script" id=2]
+[ext_resource path="res://assets/dialogue/sample-dialogue.ink" type="Resource" id=3]
+[ext_resource path="res://assets/dialogue_theme.tres" type="Theme" id=4]
+
+[node name="Dialogue" type="CanvasLayer"]
+script = ExtResource( 1 )
+ink_script = ExtResource( 3 )
+
+[node name="Ink" type="Node" parent="."]
+script = ExtResource( 2 )
+AutoLoadStory = true
+
+[node name="Dialogue" type="RichTextLabel" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -318.0
+margin_top = 50.0
+margin_right = 319.0
+margin_bottom = 387.0
+theme = ExtResource( 4 )
+bbcode_enabled = true
+bbcode_text = "Dappoot"
+text = "Dappoot"
+
+[node name="Choices" type="ItemList" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -320.0
+margin_top = -187.0
+margin_right = 320.0
+margin_bottom = -50.0
+theme = ExtResource( 4 )
+max_text_lines = 5
+
+[connection signal="InkChoices" from="Ink" to="." method="_on_Ink_InkChoices"]
+[connection signal="InkContinued" from="Ink" to="." method="_on_Ink_InkContinued"]
+[connection signal="gui_input" from="Dialogue" to="." method="_on_Dialogue_gui_input"]
+[connection signal="item_selected" from="Choices" to="." method="_on_Choices_item_selected"]

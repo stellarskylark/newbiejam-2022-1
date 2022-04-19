@@ -14,7 +14,7 @@ _global_script_classes=[ {
 "language": "NativeScript",
 "path": "res://addons/fmod/Fmod.gdns"
 }, {
-"base": "EditorVCSInterface",
+"base": "",
 "class": "GitAPI",
 "language": "NativeScript",
 "path": "res://addons/godot-git-plugin/git_api.gdns"
@@ -35,11 +35,15 @@ Fmod="*res://addons/fmod/Fmod.tscn"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/fmod/plugin.cfg" )
+enabled=PoolStringArray( "res://addons/fmod/plugin.cfg", "res://addons/paulloz.ink/plugin.cfg" )
 
 [gdnative]
 
 singletons=[ "res://addons/godot-git-plugin/git_api.gdnlib" ]
+
+[ink]
+
+inklecate_path="res://inklecate"
 
 [input]
 
