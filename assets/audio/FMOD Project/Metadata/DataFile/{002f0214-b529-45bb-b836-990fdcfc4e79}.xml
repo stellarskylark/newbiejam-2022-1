@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="DataFile" id="{002f0214-b529-45bb-b836-990fdcfc4e79}">
+		<property name="assetPath">
+			<value>voices/narration-voice.wav.import</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e3202188-4335-4af3-b9ca-5e7e42c42b09}</destination>
+		</relationship>
+	</object>
+</objects>

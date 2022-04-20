@@ -123,12 +123,18 @@
 	<object class="MixerBusPanner" id="{bbf2e1c4-a13c-4adf-966d-ea21efbddf81}" />
 	<object class="MultiSound" id="{5ea0abb8-ad27-473a-ab9f-1db31bf9a5cf}">
 		<property name="volume">
-			<value>-17</value>
+			<value>-6.5</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
+		</property>
+		<property name="playlistMode">
+			<value>1</value>
 		</property>
 		<relationship name="sounds">
-			<destination>{a887c898-ad3d-4dff-9a40-91091ab9dea6}</destination>
-			<destination>{059113aa-30ed-4767-b154-3d9a4d929d07}</destination>
-			<destination>{ab3dc1d7-318c-4959-a29d-9a61befbaadd}</destination>
+			<destination>{cb225bb5-6979-4473-8675-4f5df39c058b}</destination>
+			<destination>{98f1a915-4d09-4a6e-83dc-7b8249d008c8}</destination>
+			<destination>{88492858-205f-4f06-beec-85ca6dbfcd2b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{922356e0-883f-49b1-93d2-022b48742079}" />
@@ -139,19 +145,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{ee01b8c4-d8ca-4bbd-bab3-2bc40af7cfb2}" />
 	<object class="MixerBusFader" id="{4308885f-46b2-4b29-b0b7-1ee38b2a04b3}" />
-	<object class="SingleSound" id="{a887c898-ad3d-4dff-9a40-91091ab9dea6}">
+	<object class="SingleSound" id="{cb225bb5-6979-4473-8675-4f5df39c058b}">
 		<relationship name="audioFile">
-			<destination>{a4759ebe-f2c7-4917-a30c-3647f33c0396}</destination>
+			<destination>{a2766137-eea0-48f6-ae80-fa6a5570bff2}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{059113aa-30ed-4767-b154-3d9a4d929d07}">
+	<object class="SingleSound" id="{98f1a915-4d09-4a6e-83dc-7b8249d008c8}">
 		<relationship name="audioFile">
-			<destination>{6ed964ab-3fa9-4ee8-811a-76630a6f7fca}</destination>
+			<destination>{0174eb2d-a2dc-463d-958d-693b65560eb8}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{ab3dc1d7-318c-4959-a29d-9a61befbaadd}">
+	<object class="SingleSound" id="{88492858-205f-4f06-beec-85ca6dbfcd2b}">
 		<relationship name="audioFile">
-			<destination>{aaddc776-940d-4c2a-aa10-9ee4b3c8b7cd}</destination>
+			<destination>{2afe6f1f-23cd-47be-b21e-5e79fa5a38a6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{003b8a55-075a-4cc6-bf92-2bfbe465467e}" />

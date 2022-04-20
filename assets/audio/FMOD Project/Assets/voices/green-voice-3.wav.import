@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/green-voice-3.wav-7d5b4e6dbac03612cc5edd9f85b7bed5.sample"
+
+[deps]
+
+source_file="res://assets/audio/FMOD Project/Assets/voices/green-voice-3.wav"
+dest_files=[ "res://.import/green-voice-3.wav-7d5b4e6dbac03612cc5edd9f85b7bed5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

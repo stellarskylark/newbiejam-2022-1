@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/orange-voice-1.wav-ed97eb0db920d78141c66236b3fa995a.sample"
+
+[deps]
+
+source_file="res://assets/audio/FMOD Project/Assets/voices/orange-voice-1.wav"
+dest_files=[ "res://.import/orange-voice-1.wav-ed97eb0db920d78141c66236b3fa995a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

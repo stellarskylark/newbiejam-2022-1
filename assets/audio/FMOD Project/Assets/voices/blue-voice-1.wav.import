@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/blue-voice-1.wav-d2649ee425bb06818b4c481f89d97143.sample"
+
+[deps]
+
+source_file="res://assets/audio/FMOD Project/Assets/voices/blue-voice-1.wav"
+dest_files=[ "res://.import/blue-voice-1.wav-d2649ee425bb06818b4c481f89d97143.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
