@@ -80,6 +80,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{58452726-d6db-487e-beae-02601a3c5cda}">
+		<relationship name="modulators">
+			<destination>{dcd0da69-7397-4ba6-b356-d2f08dd6e78c}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{5a921ada-b9d0-48e3-a75b-64140224fcc7}</destination>
 		</relationship>
@@ -105,6 +108,9 @@
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
+		<relationship name="modulators">
+			<destination>{85ae4108-21d9-4dbb-99e4-98a3374e467c}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{f5ee180a-ba77-4310-b288-14002453088e}</destination>
 		</relationship>
@@ -114,6 +120,26 @@
 		<relationship name="output">
 			<destination>{58452726-d6db-487e-beae-02601a3c5cda}</destination>
 		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{dcd0da69-7397-4ba6-b356-d2f08dd6e78c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>20</value>
+		</property>
+		<property name="peakValue">
+			<value>-0.577777863</value>
+		</property>
+		<property name="releaseTime">
+			<value>60</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{5a921ada-b9d0-48e3-a75b-64140224fcc7}">
 		<relationship name="effects">
@@ -138,6 +164,26 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{922356e0-883f-49b1-93d2-022b48742079}" />
+	<object class="ADSRModulator" id="{85ae4108-21d9-4dbb-99e4-98a3374e467c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>147.435928</value>
+		</property>
+		<property name="peakValue">
+			<value>-0.577777863</value>
+		</property>
+		<property name="releaseTime">
+			<value>40</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{f5ee180a-ba77-4310-b288-14002453088e}">
 		<relationship name="effects">
 			<destination>{003b8a55-075a-4cc6-bf92-2bfbe465467e}</destination>
