@@ -68,7 +68,7 @@ func _on_Ink_InkContinued(text, tags):
 		voice = green_voice
 		speaker = "[color=green][i]Green[/i][/color]\n"
 	elif tags and tags[0] == "blue":
-		voice = green_voice
+		voice = blue_voice
 		speaker = "[color=blue][i]Blue[/i][/color]\n"
 	else:
 		voice = narrator_voice
