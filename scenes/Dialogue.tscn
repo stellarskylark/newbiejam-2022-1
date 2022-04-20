@@ -2,12 +2,13 @@
 
 [ext_resource path="res://scripts/dialogue.gd" type="Script" id=1]
 [ext_resource path="res://addons/paulloz.ink/InkStory.cs" type="Script" id=2]
-[ext_resource path="res://assets/dialogue/sample-dialogue.ink" type="Resource" id=3]
+[ext_resource path="res://assets/dialogue/sample-dialogue.ink" type="TextFile" id=3]
 [ext_resource path="res://assets/dialogue_theme.tres" type="Theme" id=4]
 
 [node name="Dialogue" type="CanvasLayer"]
 script = ExtResource( 1 )
 ink_script = ExtResource( 3 )
+print_speed = 100
 
 [node name="Ink" type="Node" parent="."]
 script = ExtResource( 2 )
@@ -22,8 +23,8 @@ margin_right = 319.0
 margin_bottom = 387.0
 theme = ExtResource( 4 )
 bbcode_enabled = true
-bbcode_text = "Dappoot"
-text = "Dappoot"
+bbcode_text = "dialogeggog"
+text = "dialogeggog"
 
 [node name="Choices" type="ItemList" parent="."]
 anchor_left = 0.5

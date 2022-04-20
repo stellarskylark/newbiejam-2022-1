@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/narration-voice-2.wav-4a53e4604c6560db9ffb438af45c2f2c.sample"
+
+[deps]
+
+source_file="res://assets/audio/FMOD Project/Assets/narration-voice-2.wav"
+dest_files=[ "res://.import/narration-voice-2.wav-4a53e4604c6560db9ffb438af45c2f2c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

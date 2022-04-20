@@ -9,3 +9,7 @@ export_presets.cfg
 data_*/
 
 prototypes/
+assets/audio/FMOD\ Project/.cache
+assets/audio/FMOD\ Project/.user
+assets/audio/FMOD\ Project/.unsaved
+
