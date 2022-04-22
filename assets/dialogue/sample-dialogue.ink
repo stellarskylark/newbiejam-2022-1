@@ -14,7 +14,7 @@ Monsieur Phileas Fogg returned home early from the Reform Club, and in a new-fan
 
 === astonished ===
 "You are in jest!" I told him in dignified affront. "You make mock of me, Monsieur."
-"I am quite serious." #orange
+"I am quite serious. I am now going to talk for a little longer so you can hear the orange voice for a little longer." #orange
 
 + "But of course."
 	-> ending
