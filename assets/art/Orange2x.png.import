@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/NeonTileset.png-5f798de726b73a69c02253801eddbae1.stex"
+path="res://.import/Orange2x.png-35c09d64c335e7ad1694141ae421322d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/art/NeonTileset.png"
-dest_files=[ "res://.import/NeonTileset.png-5f798de726b73a69c02253801eddbae1.stex" ]
+source_file="res://assets/art/Orange2x.png"
+dest_files=[ "res://.import/Orange2x.png-35c09d64c335e7ad1694141ae421322d.stex" ]
 
 [params]
 

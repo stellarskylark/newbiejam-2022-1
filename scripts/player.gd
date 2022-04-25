@@ -16,19 +16,15 @@ func _process(delta):
 		return
 	if not input_locked:
 		if Input.is_action_just_pressed("move_up"):
-			rotation_degrees = 0
 			velocity = Vector2(0, -move_speed)
 			input_locked = true
 		elif Input.is_action_just_pressed("move_down"):
-			rotation_degrees = 180
 			velocity = Vector2(0, move_speed)
 			input_locked = true
 		elif Input.is_action_just_pressed("move_right"):
-			rotation_degrees = 90
 			velocity = Vector2(move_speed, 0)
 			input_locked = true
 		elif Input.is_action_just_pressed("move_left"):
-			rotation_degrees = 270
 			velocity = Vector2(-move_speed, 0)
 			input_locked = true
 	

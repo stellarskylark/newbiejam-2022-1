@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/NeonTileset.png-5f798de726b73a69c02253801eddbae1.stex"
+path="res://.import/Player.png-70cf79e85f2b37b2d80c5c6f55c2686d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/art/NeonTileset.png"
-dest_files=[ "res://.import/NeonTileset.png-5f798de726b73a69c02253801eddbae1.stex" ]
+source_file="res://assets/art/Player.png"
+dest_files=[ "res://.import/Player.png-70cf79e85f2b37b2d80c5c6f55c2686d.stex" ]
 
 [params]
 

@@ -4,18 +4,18 @@
 [ext_resource path="res://addons/paulloz.ink/InkStory.cs" type="Script" id=2]
 [ext_resource path="res://assets/dialogue/sample-dialogue.ink" type="Resource" id=3]
 [ext_resource path="res://assets/themes/dialogue_theme.tres" type="Theme" id=4]
-[ext_resource path="res://assets/art/Blue.png" type="Texture" id=5]
+[ext_resource path="res://assets/art/Green2x.png" type="Texture" id=5]
 [ext_resource path="res://assets/themes/standard_box_style.tres" type="StyleBox" id=6]
-[ext_resource path="res://assets/art/Green.png" type="Texture" id=7]
-[ext_resource path="res://assets/art/Orange.png" type="Texture" id=8]
+[ext_resource path="res://assets/art/Blue2x.png" type="Texture" id=7]
+[ext_resource path="res://assets/art/Orange2x.png" type="Texture" id=8]
 
 [node name="Dialogue" type="CanvasLayer"]
 script = ExtResource( 1 )
 ink_script = ExtResource( 3 )
 print_speed = 100
 orange_icon = ExtResource( 8 )
-blue_icon = ExtResource( 5 )
-green_icon = ExtResource( 7 )
+blue_icon = ExtResource( 7 )
+green_icon = ExtResource( 5 )
 
 [node name="Ink" type="Node" parent="."]
 script = ExtResource( 2 )
@@ -50,17 +50,16 @@ margin_left = 1.0
 margin_top = 1.0
 margin_right = 469.0
 margin_bottom = 96.0
-split_offset = 40
+split_offset = 55
 
 [node name="SpeakerIcon" type="TextureRect" parent="DialogueBox/HSplitContainer"]
-margin_right = 40.0
+margin_right = 55.0
 margin_bottom = 95.0
-texture = ExtResource( 7 )
 expand = true
 stretch_mode = 4
 
 [node name="DialogueText" type="RichTextLabel" parent="DialogueBox/HSplitContainer"]
-margin_left = 52.0
+margin_left = 67.0
 margin_right = 468.0
 margin_bottom = 95.0
 theme = ExtResource( 4 )
