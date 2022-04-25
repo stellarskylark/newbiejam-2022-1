@@ -4,6 +4,9 @@ signal finished
 
 export(Resource) var ink_script
 export(int) var print_speed = 20
+export(StreamTexture) var orange_icon
+export(StreamTexture) var blue_icon
+export(StreamTexture) var green_icon
 
 var orange_voice
 var green_voice
@@ -66,18 +69,22 @@ func _on_Ink_InkContinued(text, tags):
 		voice = orange_voice
 		speaker = "[color=#FF8C00][i]Orange[/i][/color]\n"
 		$DialogueBox.add_stylebox_override("panel", load("res://assets/themes/orange_box_style.tres"))
+		$DialogueBox/HSplitContainer/SpeakerIcon.texture = orange_icon
 	elif tags and tags[0] == "green":
 		voice = green_voice
 		speaker = "[color=green][i]Green[/i][/color]\n"
 		$DialogueBox.add_stylebox_override("panel", load("res://assets/themes/green_box_style.tres"))
+		$DialogueBox/HSplitContainer/SpeakerIcon.texture = green_icon
 	elif tags and tags[0] == "blue":
 		voice = blue_voice
 		speaker = "[color=blue][i]Blue[/i][/color]\n"
 		$DialogueBox.add_stylebox_override("panel", load("res://assets/themes/blue_box_style.tres"))
+		$DialogueBox/HSplitContainer/SpeakerIcon.texture = blue_icon
 	else:
 		voice = narrator_voice
 		speaker = "\n"
 		$DialogueBox.add_stylebox_override("panel", load("res://assets/themes/standard_box_style.tres"))
+		$DialogueBox/HSplitContainer/SpeakerIcon.texture = null
 	index = speaker.length()
 	target_text = speaker + text
 	print(target_text)
