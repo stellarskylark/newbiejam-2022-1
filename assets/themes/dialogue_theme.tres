@@ -1,4 +1,4 @@
-[gd_resource type="Theme" load_steps=13 format=2]
+[gd_resource type="Theme" load_steps=14 format=2]
 
 [ext_resource path="res://assets/fonts/VT323-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://assets/fonts/UbuntuMono-Bold.ttf" type="DynamicFontData" id=2]
@@ -7,25 +7,22 @@
 [ext_resource path="res://assets/fonts/UbuntuMono-BoldItalic.ttf" type="DynamicFontData" id=5]
 
 [sub_resource type="DynamicFont" id=3]
-size = 24
 font_data = ExtResource( 4 )
 
-[sub_resource type="StyleBoxTexture" id=4]
+[sub_resource type="StyleBoxEmpty" id=8]
+
+[sub_resource type="StyleBoxEmpty" id=9]
 
 [sub_resource type="DynamicFont" id=6]
-size = 24
 font_data = ExtResource( 2 )
 
 [sub_resource type="DynamicFont" id=7]
-size = 24
 font_data = ExtResource( 5 )
 
 [sub_resource type="DynamicFont" id=5]
-size = 24
 font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=1]
-size = 24
 font_data = ExtResource( 4 )
 
 [sub_resource type="DynamicFont" id=2]
@@ -36,7 +33,8 @@ default_font = SubResource( 2 )
 ItemList/colors/font_color = Color( 0.94902, 0.94902, 0.94902, 1 )
 ItemList/colors/font_color_selected = Color( 0.95, 0.61655, 0.437, 1 )
 ItemList/fonts/font = SubResource( 3 )
-ItemList/styles/bg = SubResource( 4 )
+ItemList/styles/bg = SubResource( 8 )
+ItemList/styles/bg_focus = SubResource( 9 )
 RichTextLabel/colors/default_color = Color( 1, 1, 1, 1 )
 RichTextLabel/colors/font_color_selected = Color( 0.49, 0.49, 0.49, 1 )
 RichTextLabel/colors/font_color_shadow = Color( 0, 0, 0, 0 )

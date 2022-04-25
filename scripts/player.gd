@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
 var velocity = Vector2.ZERO
-var move_speed = 2400
+var move_speed = 1200
 var input_locked = false
 var won = false
 

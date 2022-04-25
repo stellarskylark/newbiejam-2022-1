@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://scripts/dialogue.gd" type="Script" id=1]
 [ext_resource path="res://addons/paulloz.ink/InkStory.cs" type="Script" id=2]
 [ext_resource path="res://assets/dialogue/sample-dialogue.ink" type="TextFile" id=3]
-[ext_resource path="res://assets/dialogue_theme.tres" type="Theme" id=4]
+[ext_resource path="res://assets/themes/dialogue_theme.tres" type="Theme" id=4]
+[ext_resource path="res://assets/themes/standard_box_style.tres" type="StyleBox" id=6]
 
 [node name="Dialogue" type="CanvasLayer"]
 script = ExtResource( 1 )
@@ -14,31 +15,48 @@ print_speed = 100
 script = ExtResource( 2 )
 AutoLoadStory = true
 
-[node name="Dialogue" type="RichTextLabel" parent="."]
-anchor_left = 0.5
-anchor_right = 0.5
-margin_left = -318.0
-margin_top = 50.0
-margin_right = 319.0
-margin_bottom = 387.0
-theme = ExtResource( 4 )
-bbcode_enabled = true
-bbcode_text = "dialogeggog"
-text = "dialogeggog"
-
 [node name="Choices" type="ItemList" parent="."]
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -320.0
-margin_top = -187.0
-margin_right = 320.0
-margin_bottom = -50.0
+margin_left = -213.0
+margin_top = -106.0
+margin_right = 213.0
+margin_bottom = -20.0
 theme = ExtResource( 4 )
 max_text_lines = 5
 
+[node name="DialogueBox" type="PanelContainer" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -235.0
+margin_top = 20.0
+margin_right = 235.0
+margin_bottom = 176.0
+custom_styles/panel = ExtResource( 6 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="HSplitContainer" type="HSplitContainer" parent="DialogueBox"]
+margin_left = 1.0
+margin_top = 1.0
+margin_right = 469.0
+margin_bottom = 155.0
+
+[node name="SpeakerIcon" type="TextureRect" parent="DialogueBox/HSplitContainer"]
+margin_bottom = 154.0
+stretch_mode = 4
+
+[node name="DialogueText" type="RichTextLabel" parent="DialogueBox/HSplitContainer"]
+margin_left = 12.0
+margin_right = 468.0
+margin_bottom = 154.0
+theme = ExtResource( 4 )
+bbcode_enabled = true
+
 [connection signal="InkChoices" from="Ink" to="." method="_on_Ink_InkChoices"]
 [connection signal="InkContinued" from="Ink" to="." method="_on_Ink_InkContinued"]
-[connection signal="gui_input" from="Dialogue" to="." method="_on_Dialogue_gui_input"]
+[connection signal="InkEnded" from="Ink" to="." method="_on_Ink_InkEnded"]
 [connection signal="item_selected" from="Choices" to="." method="_on_Choices_item_selected"]
