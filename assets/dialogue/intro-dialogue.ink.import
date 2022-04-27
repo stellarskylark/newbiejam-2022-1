@@ -1,0 +1,15 @@
+[remap]
+
+importer="ink"
+type="Resource"
+path="res://.import/intro-dialogue.ink-27fff5ea2a2ce84fa42855f325817bfa.res"
+
+[deps]
+
+source_file="res://assets/dialogue/intro-dialogue.ink"
+dest_files=[ "res://.import/intro-dialogue.ink-27fff5ea2a2ce84fa42855f325817bfa.res" ]
+
+[params]
+
+is_master_file=true
+compress=true

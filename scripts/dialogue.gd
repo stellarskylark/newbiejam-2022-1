@@ -7,6 +7,7 @@ export(int) var print_speed = 20
 export(StreamTexture) var orange_icon
 export(StreamTexture) var blue_icon
 export(StreamTexture) var green_icon
+export(StreamTexture) var player_icon
 
 var orange_voice
 var green_voice
@@ -34,13 +35,14 @@ func _ready():
 	$Ink.LoadStory()
 	$Ink.Continue()
 	
-
+	$Choices.grab_focus()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if Input.is_action_just_pressed("advance_dialogue"):
 		if $DialogueBox/HSplitContainer/DialogueText.bbcode_text != target_text:
 			$DialogueBox/HSplitContainer/DialogueText.bbcode_text = target_text
+			Fmod.stop_event(voice, Fmod.FMOD_STUDIO_STOP_ALLOWFADEOUT)
 		else:
 			$Ink.Continue()	
 			if done:
@@ -80,6 +82,11 @@ func _on_Ink_InkContinued(text, tags):
 		speaker = "[color=blue][i]Blue[/i][/color]\n"
 		$DialogueBox.add_stylebox_override("panel", load("res://assets/themes/blue_box_style.tres"))
 		$DialogueBox/HSplitContainer/SpeakerIcon.texture = blue_icon
+	elif tags and tags[0] == "player":
+		voice = narrator_voice
+		speaker = "[i]You[/i]\n"
+		$DialogueBox.add_stylebox_override("panel", load("res://assets/themes/standard_box_style.tres"))
+		$DialogueBox/HSplitContainer/SpeakerIcon.texture = player_icon
 	else:
 		voice = narrator_voice
 		speaker = "\n"
@@ -87,14 +94,8 @@ func _on_Ink_InkContinued(text, tags):
 		$DialogueBox/HSplitContainer/SpeakerIcon.texture = null
 	index = speaker.length()
 	target_text = speaker + text
-	print(target_text)
 	time_since_last = 0.0
 	Fmod.start_event(voice)
-
-
-func _on_Choices_item_selected(index):
-	$Ink.ChooseChoiceIndexAndContinue(index)
-	$Choices.clear()
 
 
 func cleanup():
@@ -113,3 +114,8 @@ func cleanup():
 
 func _on_Ink_InkEnded():
 	done = true
+
+
+func _on_Choices_item_activated(index):
+	$Ink.ChooseChoiceIndex(index)
+	$Choices.clear()

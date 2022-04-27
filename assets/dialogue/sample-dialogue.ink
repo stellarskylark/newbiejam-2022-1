@@ -6,17 +6,17 @@ Residence of Monsieur Phileas Fogg.
 Monsieur Phileas Fogg returned home early from the Reform Club, and in a new-fangled steam-carriage, besides!  
 "Passepartout," said he. "We are going around the world!" #green
 
-+ "Around the world, Monsieur?"
++ "Around the world, Monsieur?" #player
 	I was utterly astonished. 
 	-> astonished
 + [Nod curtly.] -> nod
 
 
 === astonished ===
-"You are in jest!" I told him in dignified affront. "You make mock of me, Monsieur."
+"You are in jest!" I told him in dignified affront. "You make mock of me, Monsieur." #player
 "I am quite serious. I am now going to talk for a little longer so you can hear the orange voice for a little longer." #orange
 
-+ "But of course."
++ "But of course." #player
 	-> ending
 
 
