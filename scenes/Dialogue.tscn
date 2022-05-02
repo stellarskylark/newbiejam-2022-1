@@ -22,8 +22,6 @@ player_icon = ExtResource( 9 )
 
 [node name="Ink" type="Node" parent="."]
 script = ExtResource( 2 )
-shouldMarshallVariables = true
-observedVariables = PoolStringArray(  )
 AutoLoadStory = true
 
 [node name="TileMap" type="TileMap" parent="."]
@@ -38,7 +36,7 @@ anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
 margin_left = -234.0
-margin_top = -106.0
+margin_top = -121.0
 margin_right = 234.0
 margin_bottom = -20.0
 theme = ExtResource( 4 )
