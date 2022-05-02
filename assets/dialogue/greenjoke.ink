@@ -571,9 +571,9 @@ How long have you been here? I hope you haven't been stuck with Green for too lo
         I'm already sorry I  left you with them for so long. #orange
         And I certainly don't think it would be that entertaining to just do puzzles all day. #orange
         I figured you might want some company. #orange
-        *** Yes, I would love some company.
+        *** Yes, I would love some company. #player
             That's what I was hoping! Glad to hear I was right. #orange
-        *** I don't really want company.
+        *** I don't really want company. #player
             Oh. #orange
             ... #orange
             Well, I hope you'll be willing to talk for at least a little while more. #orange
@@ -605,9 +605,9 @@ How long have you been here? I hope you haven't been stuck with Green for too lo
         I'm already sorry I  left you with them for so long. #orange
         And I certainly don't think it would be that entertaining to just do puzzles all day. #orange
         I figured you might want some company. #orange
-        *** Yes, I would love some company.
+        *** Yes, I would love some company. #player
             That's what I was hoping! Glad to hear I was right. #orange
-        *** I don't really want company.
+        *** I don't really want company. #player
             Oh. #orange
             ... #orange
             Well, I hope you'll be willing to talk for at least a little while more. #orange
@@ -646,7 +646,7 @@ How long have you been here? I hope you haven't been stuck with Green for too lo
             Well, I hope you'll be willing to talk for at least a little while more. #orange
             I don't really get a lot of company around here. #orange
             It would be wonderful to talk to someone new for a change. #orange
-... #player
+...
 - Oh! It's time for another puzzle! #orange
 I'll be right here waiting for when you come back! #orange
 -> END
