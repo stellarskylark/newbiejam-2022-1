@@ -143,7 +143,7 @@ Which would you buy? #green
             Regardless... #green
             An intriguing opinion. #green
             -> closing
-* Not offering free shipping makes the other seller seem stingy. #player
+* [No free shipping feels stingy.] Not offering free shipping makes the other seller seem stingy. #player
     Ah. What an interesting conclusion. #green
     Yet, can we really tell if that is the case from such a small piece of information? #green
     Do you think that's truly the reason behind the seller's choice not to offer free shipping? #green
@@ -195,7 +195,7 @@ Which would you buy? #green
             Interesting, then, that this kind of thought pattern would influence you in this particular situation. #green
             Perhaps it is because of how minor this decision is, given that you're paying the same price for the same product either way you choose. #green
             -> closing
-* Sellers that offer free shipping are usually more reputable. #player
+* [Free shipping makes them look reputable.] Sellers that offer free shipping are usually more reputable. #player
     That's not an unreasonable assumption. #green
     It's generally easier for large companies to offer free shipping, as they often get discounted shipping prices. #green
     Perhaps you think that larger companies are more likely to offer high quality products and services because of their experience. #green
@@ -319,7 +319,7 @@ Which would you buy? #green
     === Hat2 ===
 - Intriguing.  #green
 - (hat2reason) Is there a particular reason for this choice? #green
-* The item seems cheaper if it's $9.00 as opposed to $9.99. #player
+* [It seems cheaper that way.] The item seems cheaper if it's $9.00 as opposed to $9.99. #player
     I understand. Low-priced items are very appealing. #green
     And yet, both items will cost you $9.99 in the end. #green
     I'm sure you must understand that the $9.99 item costs the same because of the $0.99 shipping. #green
@@ -370,7 +370,7 @@ Which would you buy? #green
             But perhaps you subconsciously don't like the thought that the $9.99 seller might be taking advantage of you. #green
             An intriguing opinion. #green
             -> closing
-* I trust shipping that I pay for more than free shipping. #player
+* [Paid shipping seems more reliable.] I trust shipping that I pay for more than free shipping. #player
     A reasonable judgment. #green
     It is certainly possible that the $9.99 seller may be using a cheaper shipping service, as we have no way of telling how much they are paying for shipping. #green
     This could result in the item being delayed, lost or damaged. #green
@@ -408,7 +408,7 @@ Which would you buy? #green
             Perhaps it is because of how minor this decision is, given that you're paying the same price for the same product either way you choose. #green
             An intriguing opinion. #green
             -> closing
-* Free shipping just seems like a ploy to get me to buy the item. #player
+* [Free shipping is just a marketing ploy.] Free shipping just seems like a ploy to get me to buy the item. #player
     It certainly could be. #green
     It is possible that you dislike the prospect of being manipulated by the seller in this way. #green
     And this dislike is enough to make you choose an alternate seller when buying the item. #green

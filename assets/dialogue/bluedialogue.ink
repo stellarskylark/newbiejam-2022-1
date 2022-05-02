@@ -24,7 +24,7 @@ I'm Blue. It's great to meet you.  #blue
     I can't imagine everything that you do in life is something you distinctly want to do. #blue
     And you're free to leave if you want to. #blue
     Otherwise, just humor me and let's break the ice. #blue
-* Is this "icebreaker" just going to be asking me questions again? #player
+* [You're going to ask me a bunch more questions.] Is this "icebreaker" just going to be asking me questions again? #player
     Very intuitive of you. #blue
     Unfortunately, given that you're playing a mostly text-based game, with the exception of a few sparsely animated puzzles... #blue
     It's hard to make our activities much more complex than that. #blue
@@ -98,18 +98,18 @@ What do you do? #blue
     It seems that this is not the sort of behavior that friends should exhibit. #blue
     So it's only natural to rectify the situation by ending the friendship. #blue
     If someone isn't acting like a friend, why call them one? #blue
-    How would you end the friendship?
-    ** I'd tell them outright.
+    How would you end the friendship? #blue
+    ** I'd tell them outright. #player
         The straightforward method, but certainly effective. #blue
         And it might be a fun exercise to come up with some creative insults, on top of that! #blue
-    ** I'd betray them when they don't see it coming.
+    ** I'd betray them when they don't see it coming. #player
         Ah, so you'd want to hurt their feelings in return. #blue
         Understandable. I'm sure their actions hurt your feelings, so it may be fair to do the same to them. #blue
-    ** I'd ghost them.
-        An effective choice. 
-        People hate unresolved conflict. 
-        Disappearing from your former friend's life without any explanation would likely leave them confused and hurt.
-        I'm sure their actions hurt your feelings, so it may be fair to do the same to them in return.
+    ** I'd ghost them. #player
+        An effective choice. #blue
+        People hate unresolved conflict. #blue
+        Disappearing from your former friend's life without any explanation would likely leave them confused and hurt. #blue
+        I'm sure their actions hurt your feelings, so it may be fair to do the same to them in return. #blue
 * (kill) Kill them. #player
     The impulse is understandable. #blue
     This is a breach of trust, and a breach of friendship. #blue
@@ -132,7 +132,7 @@ I hope you feel the same way. #blue
 - Now, for a more involved question. #blue
 I'm rather interested to hear what your response will be. #blue
 Is there anything that someone could offer you that would persuade you to kill someone? {kill:Your answer to my previous question suggests that there might be.} #blue
-Imagine this:
+Imagine this: #blue
 - (genie) If a genie offered you one wish, with no restrictions at all, except that granting the wish would kill {a random person|{randomquestion.notrandom:the specific person of your choice}}, what would you wish for? #blue
 * All the money I could ever need. #player
     Ah, what a nice wish. #blue
@@ -147,9 +147,9 @@ Imagine this:
         *** Yes. #player
             This world is kill or get killed, I suppose. #blue
             And who's to say that the person killed wouldn't have done the same to you, if given the choice? #blue
-        *** No.
-            That tinge of guilt may very well be your undoing.
-            Perhaps you shouldn't have agreed to such a permanent condition.
+        *** No. #player
+            That tinge of guilt may very well be your undoing. #blue
+            Perhaps you shouldn't have agreed to such a permanent condition. #blue
     ** A car. #player
         Good choice. Who wouldn't want a luxurious car? #blue
         I think you would enjoy hitting the road in your brand new car. #blue
@@ -157,22 +157,22 @@ Imagine this:
         *** Yes. #player
             This world is kill or get killed, I suppose. #blue
             And who's to say that the person killed wouldn't have done the same to you, if given the choice? #blue
-        *** No.
-            That tinge of guilt may very well be your undoing.
-            Perhaps you shouldn't have agreed to such a permanent condition.
+        *** No. #player
+            That tinge of guilt may very well be your undoing. #blue
+            Perhaps you shouldn't have agreed to such a permanent condition. #blue
     ** A vacation. #player
         A vacation would likely be on the forefront of your mind, especially if you're overworked. #blue
         It would be nice to be able to relax for once, without having to worry about money or time. #blue
-        But would you be able to relax? KNowing that you gained this vacation through the death of someone else?
+        But would you be able to relax? KNowing that you gained this vacation through the death of someone else? #blue
         *** Yes. #player
             This world is kill or get killed, I suppose. #blue
             And who's to say that the person killed wouldn't have done the same to you, if given the choice? #blue
-        *** No.
-            That tinge of guilt may very well be your undoing.
-            Perhaps you shouldn't have agreed to such a permanent condition.
+        *** No. #player
+            That tinge of guilt may very well be your undoing. #blue
+            Perhaps you shouldn't have agreed to such a permanent condition. #blue
     ** My loved ones. #player
         A noble choice. #blue
-        Many people dream of giving their loved ones the lives that they deserve.
+        Many people dream of giving their loved ones the lives that they deserve. #blue
         A life of luxury, peace, and comfort. #blue
         Yet, could you really be comfortable? Knowing that their comfort was gained through the death of somebody else? #blue
         *** Yes. #player
@@ -191,7 +191,7 @@ Imagine this:
     ** No. #player
         That tinge of guilt may very well be your undoing. #blue
         Perhaps you shouldn't have agreed to such a permanent condition. #blue
-* An end to a major problem in society, like world hunger or cancer. #player
+* [End world hunger, cancer, etc.] An end to a major problem in society, like world hunger or cancer. #player
     What a noble decision. #blue
     It may benefit you directly, or it may not. But it's likely that at least someone you know would benefit from your decision. #blue
     You would be praised as a hero! #blue
@@ -277,7 +277,7 @@ I hope we speak again soon. Goodbye. #blue
         Great. Then let's start again. #blue
         -> genie
     * Random including me? #player
-        No, this hypothetical wouldn't include you. You're safe from the results.
+        No, this hypothetical wouldn't include you. You're safe from the results. #blue
         -> clarify
     * Does it have to be random? #player
         Well, I suppose not. #blue

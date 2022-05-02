@@ -1,4 +1,4 @@
-It's great to see you again!
+It's great to see you again! #orange
 I was wondering if maybe you'd like to play a little game? #orange
 I'm quite fond of "Would You Rather?" myself. #orange
 Have you ever played it before? #orange
@@ -68,10 +68,10 @@ Never remember people's names, or never remember their faces? #orange
 -Would you rather...  #orange
 Only speak in questions or only speak in movie quotes? #orange
 * Questions. #player
-    Man, wouldn't that be tough?
-    Don't you think that would get annoying after a while?
-    Do you think you could learn to get used to it?
-    Would you have to start using rhetorical questions to get around it?
+    Man, wouldn't that be tough? #orange
+    Don't you think that would get annoying after a while? #orange
+    Do you think you could learn to get used to it? #orange
+    Would you have to start using rhetorical questions to get around it? #orange
 * Movie quotes. #player
     "What, like it's hard?" #orange
     "You're telling me you don't have a backup plan?" #orange
@@ -121,8 +121,8 @@ Not feel any pain, or have any pain you feel double in intensity? #orange
 - Would you rather... #orange
 Live an average life, or live an extraordinary life that is half the length? #orange
 * Average life. #player
-    Understandable. It's frightening to think of living only half as long if you can choose otherwise.
-    That means half as much time with family and friends.
+    Understandable. It's frightening to think of living only half as long if you can choose otherwise. #orange
+    That means half as much time with family and friends. #orange
 * Shorter, extraordinary life. #player
     It would be a sacrifice, for sure. #orange
     But maybe it would be worth it, to have the satisfaction and the contribution to the world of being truly extraordinary. #orange
