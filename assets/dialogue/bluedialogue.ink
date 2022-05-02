@@ -12,7 +12,7 @@ I'm Blue. It's great to meet you.  #blue
     I hope you'll learn to live with it. #blue
     ** I can deal with it, I guess. #player
         Excellent. #blue
-    ** You didn't answer my question.
+    ** You didn't answer my question. #player
         No, I didn't. Is that a problem? #blue
         Don't answer. That's a rhetorical question. #blue
 
