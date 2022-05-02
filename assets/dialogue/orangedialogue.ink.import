@@ -1,0 +1,15 @@
+[remap]
+
+importer="ink"
+type="Resource"
+path="res://.import/orangedialogue.ink-caab978628483c4452d43a279cb79646.res"
+
+[deps]
+
+source_file="res://assets/dialogue/orangedialogue.ink"
+dest_files=[ "res://.import/orangedialogue.ink-caab978628483c4452d43a279cb79646.res" ]
+
+[params]
+
+is_master_file=true
+compress=true

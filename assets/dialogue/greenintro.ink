@@ -23,24 +23,23 @@ I'm looking forward to talking to you more. I've always liked to meet new people
 
 * [What is that supposed to mean?] What do you mean, "so you're told?" #player
 -> explain
-* Nice to meet you too.#green 
+* Nice to meet you too. #player 
 -> finish 
 * [Say nothing.] -> nothing2
 === continue2 ===
 {nothing: You're not really much for conversation, are you?}  #green
 {not nothing: ... Anyways.} #green
 
-
+... #green
 {nothing && nothing2: I'll leave you alone. You seem...busy. } #green
     ->END
 -> finish
  
 === explain ===
-Well, it doesn't really matter. 
-I'm new to this, forgive me. It was a figure of speech, I suppose. 
+Well, it doesn't really matter. #green
+I'm new to this, forgive me. It was a figure of speech, I suppose. #green
 -> finish
 
 === finish===
-- Thanks for sticking around and talking for a bit. Hope you'll come have another chat soon.
-
+- Thanks for sticking around and talking for a bit. Hope you'll come have another chat soon. #green
 -> END
