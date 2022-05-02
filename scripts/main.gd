@@ -21,6 +21,7 @@ func _ready():
 	Fmod.load_bank("res://assets/audio/Banks/Desktop/Master.bank", Fmod.FMOD_STUDIO_LOAD_BANK_NORMAL)
 	Fmod.load_bank("res://assets/audio/Banks/Desktop/Voices.bank", Fmod.FMOD_STUDIO_LOAD_BANK_NORMAL)
 	Fmod.load_bank("res://assets/audio/Banks/Desktop/Music.bank", Fmod.FMOD_STUDIO_LOAD_BANK_NORMAL)
+	Fmod.load_bank("res://assets/audio/Banks/Desktop/SFX.bank", Fmod.FMOD_STUDIO_LOAD_BANK_NORMAL)
 
 	# register listener
 	Fmod.add_listener(0, self)

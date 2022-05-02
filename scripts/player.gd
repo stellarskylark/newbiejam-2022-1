@@ -29,5 +29,6 @@ func _process(delta):
 			input_locked = true
 	
 	if input_locked and not move_and_slide(velocity):
+		Fmod.play_one_shot("event:/SFX/Collision", self)
 		velocity = Vector2.ZERO
 		input_locked = false
