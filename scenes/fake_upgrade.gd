@@ -21,3 +21,7 @@ func _on_Timer_timeout():
 	dialogue.ink_script = load("res://assets/dialogue/fakeupgrade.ink")
 	add_child(dialogue)
 	dialogue.get_node("TileMap").queue_free()
+	dialogue.get_node("DialogueBox").margin_top = 25
+	dialogue.get_node("DialogueBox").margin_bottom = 150
+	dialogue.get_node("Choices").margin_top = -100
+	dialogue.get_node("Choices").margin_bottom = -15
