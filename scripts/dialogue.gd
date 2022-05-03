@@ -71,6 +71,10 @@ func _on_Ink_InkChoices(choices):
 func _on_Ink_InkContinued(text, tags):
 	var speaker = ""
 	if "kill" in tags:
+		var upgrade = File.new()
+		upgrade.open("user://upgrade", File.WRITE)
+		upgrade.store_line("1")
+		upgrade.close()
 		get_tree().quit()
 	if tags and tags[0] == "orange":
 		voice = orange_voice

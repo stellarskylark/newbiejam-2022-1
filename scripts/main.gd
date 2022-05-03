@@ -29,7 +29,11 @@ func _ready():
 	music_instance = Fmod.create_event_instance("event:/Music/Act 1")
 	Fmod.start_event(music_instance)
 	
-	next_level()
+	var upgrade = File.new()
+	if not upgrade.file_exists("user://upgrade"):
+		next_level()
+	else:
+		add_child(load("res://scenes/FakeUpgrade.tscn").instance())
 	
 
 

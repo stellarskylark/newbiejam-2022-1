@@ -1,0 +1,15 @@
+[remap]
+
+importer="ink"
+type="Resource"
+path="res://.import/fakeupgrade.ink-00f8f42eb5811cb7db5e86bc458487ba.res"
+
+[deps]
+
+source_file="res://assets/dialogue/fakeupgrade.ink"
+dest_files=[ "res://.import/fakeupgrade.ink-00f8f42eb5811cb7db5e86bc458487ba.res" ]
+
+[params]
+
+is_master_file=true
+compress=true

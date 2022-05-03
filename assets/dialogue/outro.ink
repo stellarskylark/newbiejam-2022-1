@@ -1,6 +1,6 @@
 Excellent work. You've done splendidly. #blue
 Oh, I'm sure there's no need to flatter them, Blue. #orange
-* (point) [No, please, continue.] I'm actually quite partial to flattery. #player
+* (point) No, please go on[.], I'm actually quite partial to flattery. #player
     Ah, a raging narcissist. I imagine you and Blue got along pretty well then. #orange
     Why shouldn't I be a narcissist, hmm? #blue
     Is that not the whole point of this? To answer that question? #green
