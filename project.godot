@@ -28,6 +28,8 @@ _global_script_class_icons={
 
 config/name="SLIDE"
 run/main_scene="res://Main.tscn"
+boot_splash/image="res://assets/art/splashscreen.png"
+boot_splash/use_filter=false
 config/icon="res://icon.png"
 
 [autoload]
