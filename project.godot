@@ -55,6 +55,12 @@ singletons=[ "res://addons/godot-git-plugin/git_api.gdnlib" ]
 
 window=false
 
+[importer_defaults]
+
+texture={
+"flags/filter": false
+}
+
 [ink]
 
 inklecate_path="res://inklecate"

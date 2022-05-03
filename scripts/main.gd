@@ -34,6 +34,8 @@ func _ready():
 		next_level()
 	else:
 		add_child(load("res://scenes/FakeUpgrade.tscn").instance())
+		$TransitionCanvas/Transition.animation = "in"
+		$TransitionCanvas/Transition.play()
 	
 
 
