@@ -82,7 +82,7 @@ animations = [ {
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
 levels = [ "res://scenes/Title.tscn", "res://scenes/Dialogue.tscn", "res://scenes/levels/Level1.tscn", "res://scenes/Dialogue.tscn", "res://scenes/levels/Level2.tscn", "res://scenes/Dialogue.tscn", "res://scenes/levels/Level3.tscn", "res://scenes/Dialogue.tscn", "res://scenes/levels/Level4.tscn", "res://scenes/Dialogue.tscn" ]
-dialogue_files = [ "res://assets/dialogue/greenintro.ink", "res://assets/dialogue/greenjoke.ink", "res://assets/dialogue/orangedialogue.ink", "res://assets/dialogue/bluedialogue.ink" ]
+dialogue_files = [ "res://assets/dialogue/greenintro.ink", "res://assets/dialogue/greenjoke.ink", "res://assets/dialogue/orangedialogue.ink", "res://assets/dialogue/bluedialogue.ink", "res://assets/dialogue/outro.ink" ]
 
 [node name="TransitionCanvas" type="CanvasLayer" parent="."]
 
@@ -90,8 +90,6 @@ dialogue_files = [ "res://assets/dialogue/greenintro.ink", "res://assets/dialogu
 position = Vector2( 256, 256 )
 frames = SubResource( 1 )
 animation = "in"
-frame = 31
-playing = true
 
 [node name="TransitionTimer" type="Timer" parent="TransitionCanvas"]
 wait_time = 0.2
