@@ -67,6 +67,8 @@ func _on_Ink_InkChoices(choices):
 
 func _on_Ink_InkContinued(text, tags):
 	var speaker = ""
+	if "kill" in tags:
+		get_tree().quit()
 	if tags and tags[0] == "orange":
 		voice = orange_voice
 		speaker = "[color=#FF8C00][i]Orange[/i][/color]\n"
