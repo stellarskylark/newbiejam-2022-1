@@ -68,7 +68,7 @@ What do you do? #blue
         *** Start a rumor about them. #player
             An effective choice. #blue
             This method allows you to indirectly take revenge by hurting their public image or their relationships with others. #blue
-            As humans prize their self-image and relationships, this would undoubtedly by a hard-hitting form of revenge. #blue
+            As humans prize their self-image and relationships, this would undoubtedly be a hard-hitting form of revenge. #blue
         *** Directly insult them. #player
             The straightforward method, but certainly effective. #blue
             And it might be a fun exercise to come up with some creative insults, on top of that! #blue
@@ -76,7 +76,7 @@ What do you do? #blue
             Harsh, but it's probably fair. #blue
             If they didn't want this to happen, they shouldn't have stolen from you. #blue
     ** Physical revenge. #player
-        A classic choice. Sometimes a little can go a long way in teaching people hat they should or shouldn't do. #blue
+        A classic choice. Sometimes a little can go a long way in teaching people what they should or shouldn't do. #blue
         Though, you must make sure to remember that this kind of revenge can cause you to run into problems with the law. #blue
         Don't go farther than you should. #blue
         What kind of revenge would you pursue? #blue
@@ -163,7 +163,7 @@ Imagine this: #blue
     ** A vacation. #player
         A vacation would likely be on the forefront of your mind, especially if you're overworked. #blue
         It would be nice to be able to relax for once, without having to worry about money or time. #blue
-        But would you be able to relax? KNowing that you gained this vacation through the death of someone else? #blue
+        But would you be able to relax? Knowing that you gained this vacation through the death of someone else? #blue
         *** Yes. #player
             This world is kill or get killed, I suppose. #blue
             And who's to say that the person killed wouldn't have done the same to you, if given the choice? #blue
@@ -247,7 +247,7 @@ Imagine this: #blue
     You could have wished for the end of water scarcity, disease, the list goes on and on. #blue
     But you didn't. #blue
     You couldn't. #blue
-    You are too afraid of your own moral quandries and your personal guilt. #blue
+    You are too afraid of your own moral quandaries and your personal guilt. #blue
     Too wrapped up in your own personal bubble of influence. #blue
     Too worried about how you may feel in the future to take the opportunity to save thousands, probably millions, of other lives. #blue 
     Is that really so brave or selfless after all? #blue

@@ -15,7 +15,7 @@ You say nothing, just staring blankly at the stranger instead.
 -> continue2
 
 === continue ===
-I'm one of the many friendly facets you'll meet around around these parts. Nice to meet you. #green
+I'm one of the many friendly facets you'll meet around these parts. Nice to meet you. #green
 
 And yes, I did mean to say facets rather than faces. It seemed more fitting. #green
 

@@ -63,7 +63,7 @@ Both online listings include the exact same hat, and they have the exact same nu
     Just assume, within this hypothetical, that you do want to buy a hat, for whatever reason. #green
 
 - (imagine) Imagine that the first option costs $9.99, and it has free shipping. #green
-The second option costs $9.00, with an additional shipping charge of $0.99 cents. #green
+The second option costs $9.00, with an additional shipping charge of $0.99. #green
 Which would you buy? #green
 
 * The first hat with free shipping. #player
@@ -119,7 +119,7 @@ Which would you buy? #green
                 ***** Impulses are important. #player
                     Indeed, I have heard that before. #green
                     The idea of "going with your gut." #green
-                    And it's true, in many cases, that this does seem to work out in  a beneficial way. #green
+                    And it's true, in many cases, that this does seem to work out in a beneficial way. #green
                     Impulses have a tendency to be right more often than they statistically would if they were just established at random. #green
                     -> closing
         
@@ -157,7 +157,7 @@ Which would you buy? #green
         *** Yes, I would. #player
             And that is logical in a way, I suppose. #green
             Corporations often get discounted shipping prices because of the sheer amount of items they frequently ship. #green
-            So perhaps it would be less stingy for a smaller sellr to ask for shipping fees than a large corporation. #green
+            So perhaps it would be less stingy for a smaller seller to ask for shipping fees than a large corporation. #green
             -> closing
         *** No, I wouldn't be more likely. #player
             It is understandable that this factor wouldn't sway your decision. #green
@@ -187,7 +187,7 @@ Which would you buy? #green
                 ***** Impulses are important. #player
                     Indeed, I have heard that before. #green
                     The idea of "going with your gut." #green
-                    And it's true, in many cases, that this does seem to work out in  a beneficial way. #green
+                    And it's true, in many cases, that this does seem to work out in a beneficial way. #green
                     Impulses have a tendency to be right more often than they statistically would if they were just established at random. #green
                     -> closing
         
@@ -228,7 +228,7 @@ Which would you buy? #green
                 ***** Impulses are important. #player
                     Indeed, I have heard that before. #green
                     The idea of "going with your gut." #green
-                    And it's true, in many cases, that this does seem to work out in  a beneficial way. #green
+                    And it's true, in many cases, that this does seem to work out in a beneficial way. #green
                     Impulses have a tendency to be right more often than they statistically would if they were just established at random. #green
                     -> closing
         
@@ -292,7 +292,7 @@ Which would you buy? #green
                     ****** Impulses are important. #player
                         Indeed, I have heard that before. #green
                         The idea of "going with your gut." #green
-                        And it's true, in many cases, that this does seem to work out in  a beneficial way. #green
+                        And it's true, in many cases, that this does seem to work out in a beneficial way. #green
                         Impulses have a tendency to be right more often than they statistically would if they were just established at random. #green
                         -> closing
             
@@ -348,7 +348,7 @@ Which would you buy? #green
                 ***** Impulses are important. #player
                     Indeed, I have heard that before. #green
                     The idea of "going with your gut." #green
-                    And it's true, in many cases, that this does seem to work out in  a beneficial way. #green
+                    And it's true, in many cases, that this does seem to work out in a beneficial way. #green
                     Impulses have a tendency to be right more often than they statistically would if they were just established at random. #green
                     -> closing
         *** Not really. #player
@@ -400,7 +400,7 @@ Which would you buy? #green
                 **** Impulses are important. #player
                     Indeed, I have heard that before. #green
                     The idea of "going with your gut." #green
-                    And it's true, in many cases, that this does seem to work out in  a beneficial way. #green
+                    And it's true, in many cases, that this does seem to work out in a beneficial way. #green
                     Impulses have a tendency to be right more often than they statistically would if they were just established at random. #green
                     -> closing
         ** Not really. #player
@@ -447,7 +447,7 @@ Which would you buy? #green
                 ***** Impulses are important. #player
                     Indeed, I have heard that before. #green
                     The idea of "going with your gut." #green
-                    And it's true, in many cases, that this does seem to work out in  a beneficial way. #green
+                    And it's true, in many cases, that this does seem to work out in a beneficial way. #green
                     Impulses have a tendency to be right more often than they statistically would if they were just established at random. #green
                     -> closing
         *** Not really. #player
@@ -492,7 +492,7 @@ Which would you buy? #green
                 ****** Impulses are important. #player
                     Indeed, I have heard that before. #green
                     The idea of "going with your gut." #green
-                    And it's true, in many cases, that this does seem to work out in  a beneficial way. #green
+                    And it's true, in many cases, that this does seem to work out in a beneficial way. #green
                     Impulses have a tendency to be right more often than they statistically would if they were just established at random. #green
                     -> closing
         **** Not really. #player
@@ -537,14 +537,14 @@ What exactly were you two talking about, anyways? #orange
     Ah. What an *incredibly* gripping topic of conversation to choose. #orange
 
 -Anyways, I think you should probably go for now. I'd like some time to greet our guest. #orange
-But we were just starting to explore the moral quandries of online shopping! #green
+But we were just starting to explore the moral quandaries of online shopping! #green
 Do you hear yourself? #orange
 Oh, alright. I'll leave. #green
 
 ...
 
 Well, it's nice to see a new face around here. #orange
-While Green is always willing to have a conversation wtih me, I can't say I always want to have those kinds of conversations. #orange
+While Green is always willing to have a conversation with me, I can't say I always want to have those kinds of conversations. #orange
 I'm sure you understand. #orange
 So it's nice to see you here. #orange
 How long have you been here? I hope you haven't been stuck with Green for too long. #orange
@@ -556,7 +556,7 @@ How long have you been here? I hope you haven't been stuck with Green for too lo
     ** What was the delay? #player
         Oh, nothing terrible. #orange
         I was just working on some errands. #orange
-        You know, cleaning up, preparing thigns, debugging, the normal. #orange
+        You know, cleaning up, preparing things, debugging, the normal. #orange
         *** Debugging? #player
             Oh. I just mean... #orange
             You know what bugs are, right? #orange
@@ -565,7 +565,7 @@ How long have you been here? I hope you haven't been stuck with Green for too lo
         *** Preparing? #player
             Well, yes. #orange
             Preparing for you! #orange
-            As soon as I got word that someone was coming, I wanted to straight some things out and make the place a little more presentable. #orange
+            As soon as I got word that someone was coming, I wanted to straighten some things out and make the place a little more presentable. #orange
     ** Why did you come? #player
         Well, I couldn't just leave you to the whims of Green. #orange
         I'm already sorry I  left you with them for so long. #orange
@@ -590,7 +590,7 @@ How long have you been here? I hope you haven't been stuck with Green for too lo
     ** What was the delay? #player
         Oh, nothing terrible. #orange
         I was just working on some errands. #orange
-        You know, cleaning up, preparing thigns, debugging, the normal. #orange
+        You know, cleaning up, preparing things, debugging, the normal. #orange
         *** Debugging? #player
             Oh. I just mean... #orange
             You know what bugs are, right? #orange
@@ -599,7 +599,7 @@ How long have you been here? I hope you haven't been stuck with Green for too lo
         *** Preparing? #player
             Well, yes. #orange
             Preparing for you! #orange
-            As soon as I got word that someone was coming, I wanted to straight some things out and make the place a little more presentable. #orange
+            As soon as I got word that someone was coming, I wanted to straighten some things out and make the place a little more presentable. #orange
     ** Why did you come? #player
         Well, I couldn't just leave you to the whims of Green. #orange
         I'm already sorry I  left you with them for so long. #orange
@@ -623,7 +623,7 @@ How long have you been here? I hope you haven't been stuck with Green for too lo
     ** What was the delay? #player
         Oh, nothing terrible. #orange
         I was just working on some errands. #orange
-        You know, cleaning up, preparing thigns, debugging, the normal. #orange
+        You know, cleaning up, preparing things, debugging, the normal. #orange
         *** Debugging? #player
             Oh. I just mean... #orange
             You know what bugs are, right? #orange
@@ -632,7 +632,7 @@ How long have you been here? I hope you haven't been stuck with Green for too lo
         *** Preparing? #player
             Well, yes. #orange
             Preparing for you! #orange
-            As soon as I got word that someone was coming, I wanted to straight some things out and make the place a little more presentable. #orange
+            As soon as I got word that someone was coming, I wanted to straighten some things out and make the place a little more presentable. #orange
     ** Why did you come? #player
         Well, I couldn't just leave you to the whims of Green. #orange
         I'm already sorry I  left you with them for so long. #orange

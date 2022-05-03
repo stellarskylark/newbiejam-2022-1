@@ -21,8 +21,8 @@ Have it always be day, or always be night? #orange
 * Day. #player
     Ah, I'm guessing you're not much of a night owl, then? #orange
     ** Not really. #player
-        I get the feeling. Daytime seems so much brightr and more energetic. #orange
-        It might be good for peoples' moods to have daytime all the time. #orange
+        I get the feeling. Daytime seems so much brighter and more energetic. #orange
+        It might be good for people's moods to have daytime all the time. #orange
         Although, I guess it'd be harder to sleep. #orange
     ** I am. #player
         I guess perpetual nighttime would have a lot of consequences, so it may be a good thing to choose daytime regardless. #orange
@@ -63,7 +63,7 @@ Never remember people's names, or never remember their faces? #orange
 * Never remember faces. #player
     It's a hard choice. I imagine either option would confuse or maybe even offend other people. #orange
     It would be so difficult to not even recognize your friends and family. #orange
-    But I'm sure you coudl learn to work around it. #orange
+    But I'm sure you could learn to work around it. #orange
     Maybe everyone could wear name tags! #orange
 -Would you rather...  #orange
 Only speak in questions or only speak in movie quotes? #orange
@@ -110,13 +110,13 @@ Never feel emotions or never express your emotions? #orange
 Not feel any pain, or have any pain you feel double in intensity? #orange
 * Not feel pain. #player
     This does seem like a nice alternative. #orange
-    I'd be a bit worries about accidentally getting hurt, but not noticing it. #orange
+    I'd be a bit worried about accidentally getting hurt, but not noticing it. #orange
     What if you accidentally put your hand on a hot stove, but didn't notice? #orange
     Though, it may still be better than the other option. #orange
 * Feel double the pain. #player
     Initially, this does seem like a less desirable choice. #orange
     But if you think about it, pain is what keeps you from getting hurt, a lot of the time. #orange
-    If you couldnt' tell you were being hurt, how would you know that you had to stop doing the thing that was hurting you? #orange
+    If you couldn't tell you were being hurt, how would you know that you had to stop doing the thing that was hurting you? #orange
     It would be hard to lose a sense of pain, and it could lead to a lot of injuries. #orange
 - Would you rather... #orange
 Live an average life, or live an extraordinary life that is half the length? #orange
