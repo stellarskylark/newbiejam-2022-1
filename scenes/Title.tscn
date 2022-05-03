@@ -28,11 +28,12 @@ tile_data = PoolIntArray( 0, 1, 0, 1, 1, 0, 2, 1, 0, 3, 1, 0, 4, 1, 0, 5, 1, 0, 
 [node name="Label" type="TextureRect" parent="."]
 anchor_left = 0.5
 anchor_right = 0.5
-margin_left = -101.5
-margin_top = 68.0
-margin_right = 101.5
-margin_bottom = 41.0
+margin_left = -210.0
+margin_top = 46.0
+margin_right = 211.0
+margin_bottom = 131.0
 texture = ExtResource( 1 )
+stretch_mode = 1
 
 [node name="Button" type="Button" parent="."]
 anchor_left = 0.5
