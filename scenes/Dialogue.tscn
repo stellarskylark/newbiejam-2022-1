@@ -36,9 +36,9 @@ anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
 margin_left = -234.0
-margin_top = -121.0
+margin_top = -208.0
 margin_right = 234.0
-margin_bottom = -20.0
+margin_bottom = -93.0
 theme = ExtResource( 4 )
 max_text_lines = 2
 
@@ -46,32 +46,32 @@ max_text_lines = 2
 anchor_left = 0.5
 anchor_right = 0.5
 margin_left = -235.0
-margin_top = 20.0
+margin_top = 109.0
 margin_right = 235.0
-margin_bottom = 135.0
+margin_bottom = 224.0
 custom_styles/panel = ExtResource( 6 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="HSplitContainer" type="HSplitContainer" parent="DialogueBox"]
-margin_left = 5.0
-margin_top = 5.0
-margin_right = 465.0
-margin_bottom = 110.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 460.0
+margin_bottom = 105.0
 split_offset = 65
 dragger_visibility = 2
 
 [node name="SpeakerIcon" type="TextureRect" parent="DialogueBox/HSplitContainer"]
 margin_right = 65.0
-margin_bottom = 105.0
+margin_bottom = 95.0
 expand = true
 stretch_mode = 4
 
 [node name="DialogueText" type="RichTextLabel" parent="DialogueBox/HSplitContainer"]
 margin_left = 65.0
-margin_right = 460.0
-margin_bottom = 105.0
+margin_right = 450.0
+margin_bottom = 95.0
 theme = ExtResource( 4 )
 bbcode_enabled = true
 
