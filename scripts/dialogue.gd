@@ -19,6 +19,7 @@ var index = 0
 var time_since_last = 0.0
 var voice
 
+var begun = false
 var done = false
 
 # Called when the node enters the scene tree for the first time.
@@ -33,12 +34,14 @@ func _ready():
 	# Register Ink story
 	$Ink.InkFile = ink_script
 	$Ink.LoadStory()
-	$Ink.Continue()
+	
 	
 	$Choices.grab_focus()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
+	if not begun:
+		return
 	if Input.is_action_just_pressed("advance_dialogue"):
 		if $DialogueBox/HSplitContainer/DialogueText.bbcode_text != target_text:
 			$DialogueBox/HSplitContainer/DialogueText.bbcode_text = target_text
@@ -121,3 +124,8 @@ func _on_Ink_InkEnded():
 func _on_Choices_item_activated(index):
 	$Ink.ChooseChoiceIndex(index)
 	$Choices.clear()
+
+
+func _on_TransitionTimer_timeout():
+	$Ink.Continue()
+	begun = true

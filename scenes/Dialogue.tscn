@@ -75,7 +75,13 @@ margin_bottom = 95.0
 theme = ExtResource( 4 )
 bbcode_enabled = true
 
+[node name="TransitionTimer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+autostart = true
+
 [connection signal="InkChoices" from="Ink" to="." method="_on_Ink_InkChoices"]
 [connection signal="InkContinued" from="Ink" to="." method="_on_Ink_InkContinued"]
 [connection signal="InkEnded" from="Ink" to="." method="_on_Ink_InkEnded"]
 [connection signal="item_activated" from="Choices" to="." method="_on_Choices_item_activated"]
+[connection signal="timeout" from="TransitionTimer" to="." method="_on_TransitionTimer_timeout"]
