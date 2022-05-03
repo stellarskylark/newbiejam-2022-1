@@ -1,8 +1,101 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=67 format=2]
 
 [ext_resource path="res://scripts/main.gd" type="Script" id=1]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00015.png" type="Texture" id=2]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00067.png" type="Texture" id=3]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00008.png" type="Texture" id=4]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00011.png" type="Texture" id=5]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00009.png" type="Texture" id=6]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00052.png" type="Texture" id=7]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00053.png" type="Texture" id=8]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00028.png" type="Texture" id=9]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00056.png" type="Texture" id=10]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00055.png" type="Texture" id=11]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00054.png" type="Texture" id=12]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00022.png" type="Texture" id=13]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00001.png" type="Texture" id=14]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00017.png" type="Texture" id=15]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00065.png" type="Texture" id=16]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00066.png" type="Texture" id=17]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00063.png" type="Texture" id=18]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00062.png" type="Texture" id=19]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00064.png" type="Texture" id=20]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00030.png" type="Texture" id=21]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00007.png" type="Texture" id=22]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00050.png" type="Texture" id=23]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00013.png" type="Texture" id=24]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00057.png" type="Texture" id=25]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00039.png" type="Texture" id=26]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00025.png" type="Texture" id=27]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00069.png" type="Texture" id=28]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00068.png" type="Texture" id=29]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00026.png" type="Texture" id=30]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00016.png" type="Texture" id=31]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00044.png" type="Texture" id=32]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00031.png" type="Texture" id=33]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00000.png" type="Texture" id=34]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00048.png" type="Texture" id=35]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00019.png" type="Texture" id=36]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00018.png" type="Texture" id=37]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00040.png" type="Texture" id=38]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00061.png" type="Texture" id=39]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00059.png" type="Texture" id=40]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00027.png" type="Texture" id=41]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00029.png" type="Texture" id=42]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00002.png" type="Texture" id=43]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00023.png" type="Texture" id=44]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00045.png" type="Texture" id=45]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00060.png" type="Texture" id=46]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00058.png" type="Texture" id=47]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00032.png" type="Texture" id=48]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00024.png" type="Texture" id=49]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00043.png" type="Texture" id=50]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00014.png" type="Texture" id=51]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00049.png" type="Texture" id=52]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00041.png" type="Texture" id=53]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00042.png" type="Texture" id=54]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00004.png" type="Texture" id=55]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00020.png" type="Texture" id=56]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00051.png" type="Texture" id=57]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00012.png" type="Texture" id=58]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00047.png" type="Texture" id=59]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00006.png" type="Texture" id=60]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00005.png" type="Texture" id=61]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00003.png" type="Texture" id=62]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00046.png" type="Texture" id=63]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00021.png" type="Texture" id=64]
+[ext_resource path="res://assets/art/Comp 1/Comp 1_00010.png" type="Texture" id=65]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 26 ), ExtResource( 38 ), ExtResource( 53 ), ExtResource( 54 ), ExtResource( 50 ), ExtResource( 32 ), ExtResource( 45 ), ExtResource( 63 ), ExtResource( 59 ), ExtResource( 35 ), ExtResource( 52 ), ExtResource( 23 ), ExtResource( 57 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 12 ), ExtResource( 11 ), ExtResource( 10 ), ExtResource( 25 ), ExtResource( 47 ), ExtResource( 40 ), ExtResource( 46 ), ExtResource( 39 ), ExtResource( 19 ), ExtResource( 18 ), ExtResource( 20 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 3 ), ExtResource( 29 ), ExtResource( 28 ), ExtResource( 34 ) ],
+"loop": false,
+"name": "in",
+"speed": 100.0
+}, {
+"frames": [ ExtResource( 34 ), ExtResource( 14 ), ExtResource( 43 ), ExtResource( 62 ), ExtResource( 55 ), ExtResource( 61 ), ExtResource( 60 ), ExtResource( 22 ), ExtResource( 4 ), ExtResource( 6 ), ExtResource( 65 ), ExtResource( 5 ), ExtResource( 58 ), ExtResource( 24 ), ExtResource( 51 ), ExtResource( 2 ), ExtResource( 31 ), ExtResource( 15 ), ExtResource( 37 ), ExtResource( 36 ), ExtResource( 56 ), ExtResource( 64 ), ExtResource( 13 ), ExtResource( 44 ), ExtResource( 49 ), ExtResource( 27 ), ExtResource( 30 ), ExtResource( 41 ), ExtResource( 9 ), ExtResource( 42 ), ExtResource( 21 ), ExtResource( 33 ), ExtResource( 48 ) ],
+"loop": false,
+"name": "out",
+"speed": 100.0
+} ]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource( 1 )
 levels = [ "res://scenes/Title.tscn", "res://scenes/Dialogue.tscn", "res://scenes/levels/Level1.tscn", "res://scenes/Dialogue.tscn", "res://scenes/levels/Level2.tscn", "res://scenes/Dialogue.tscn", "res://scenes/levels/Level3.tscn", "res://scenes/Dialogue.tscn", "res://scenes/levels/Level4.tscn", "res://scenes/Dialogue.tscn" ]
 dialogue_files = [ "res://assets/dialogue/greenintro.ink", "res://assets/dialogue/greenjoke.ink", "res://assets/dialogue/orangedialogue.ink", "res://assets/dialogue/bluedialogue.ink" ]
+
+[node name="TransitionCanvas" type="CanvasLayer" parent="."]
+
+[node name="Transition" type="AnimatedSprite" parent="TransitionCanvas"]
+position = Vector2( 256, 256 )
+frames = SubResource( 1 )
+animation = "in"
+frame = 31
+playing = true
+
+[node name="TransitionTimer" type="Timer" parent="TransitionCanvas"]
+wait_time = 0.2
+one_shot = true
+
+[connection signal="animation_finished" from="TransitionCanvas/Transition" to="." method="_on_Transition_animation_finished"]
+[connection signal="timeout" from="TransitionCanvas/TransitionTimer" to="." method="_on_TransitionTimer_timeout"]

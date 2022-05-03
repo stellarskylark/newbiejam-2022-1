@@ -34,6 +34,14 @@ func _ready():
 
 
 func next_level():
+	if music_intensity == -1:
+		$TransitionCanvas/TransitionTimer.start()
+		
+	$TransitionCanvas/Transition.animation = "out"
+	$TransitionCanvas/Transition.play()
+
+
+func _on_TransitionTimer_timeout():
 	if level_instance:
 		level_instance.queue_free()
 		
@@ -50,5 +58,13 @@ func next_level():
 		Fmod.set_event_parameter_by_name(music_instance, "Intensity", music_intensity)
 		
 	add_child(level_instance)
-	
+	move_child(level_instance, 0)
 	current_level += 1
+	
+	$TransitionCanvas/Transition.animation = "in"
+	$TransitionCanvas/Transition.play()
+
+
+func _on_Transition_animation_finished():
+	if $TransitionCanvas/Transition.animation == "out":
+		$TransitionCanvas/TransitionTimer.start()
