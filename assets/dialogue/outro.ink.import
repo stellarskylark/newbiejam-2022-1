@@ -1,0 +1,15 @@
+[remap]
+
+importer="ink"
+type="Resource"
+path="res://.import/outro.ink-4a00085a5aa3f99f0de9abd2bdae2649.res"
+
+[deps]
+
+source_file="res://assets/dialogue/outro.ink"
+dest_files=[ "res://.import/outro.ink-4a00085a5aa3f99f0de9abd2bdae2649.res" ]
+
+[params]
+
+is_master_file=true
+compress=true
